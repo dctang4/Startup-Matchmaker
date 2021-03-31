@@ -1,0 +1,187 @@
+/* ################################################## */
+/* ########### YOUR CUSTOM CSS ########### */
+/* ################################################## */
+
+/* BACKGROUND IMAGE URL */
+/* https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg */
+
+* {
+  box-sizing: border-box;
+  /* border: 1px solid !important; */
+}
+
+/* body {
+  width: 1250px;
+} */
+
+/* header section */
+
+header#page-header div {
+  border-bottom: 5px solid #f2ff00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+}
+
+h1 a {
+  font-family: "Merriweather", serif;
+  font-size: 27px;
+  color: #f2ff00;
+  text-decoration: none;
+  padding-left: 40px;
+}
+
+nav {
+  width: 550px;
+}
+
+nav ul {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 40px;
+}
+
+li:nth-of-type(1),
+li:nth-of-type(2) {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* tagline under the header */
+
+p.tagline {
+  background-color: #adadad;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-size: 20px;
+}
+
+del {
+  color: #878787;
+}
+
+ins {
+  text-decoration: underline #f2ff00;
+}
+
+/* Banner Section*/
+
+section.banner {
+  height: 400px;
+  background-image: url(https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg);
+  background-position: center;
+  background-size: 1800px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+div.blurb {
+  width: 450px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 40px 50px;
+  background-color: rgba(255, 255, 255, 0.829);
+  font-family: "Lato", sans-serif;
+}
+
+div.blurb h2 {
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+
+div.blurb p {
+  font-size: 15px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+
+div.blurb a.button {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  background-color: #f2ff00;
+  padding: 10px;
+  border-bottom: 3px solid #adadad;
+  /* searched w3schools on how to do rounded borders*/
+  border-radius: 5px;
+}
+
+/* Touts Section */
+
+section.touts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px 48px;
+}
+
+section.tout {
+  flex-grow: 1;
+  width: 300px;
+  padding: 20px 35px 40px 35px;
+}
+
+section.tout:nth-of-type(2) {
+  border: 2px #adadad;
+  border-style: none solid none solid;
+}
+
+section.tout header h3 {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+}
+
+section.tout p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  padding: 5px 0px 30px 0px;
+}
+
+section.tout a.button {
+  display: flex;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  /* text-align: center; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  background-color: #adadad;
+  padding: 10px 0px;
+  border-bottom: 3px solid #878787;
+  /* searched w3schools on how to do rounded borders*/
+  border-radius: 5px;
+}
+
+/* footer section */
+
+footer {
+  font-family: "Lato", sans-serif;
+  color: white;
+  position: relative;
+  bottom: 0px;
+  background-color: black;
+  width: 100%;
+  padding: 40px 0px 10px 60px;
+}
